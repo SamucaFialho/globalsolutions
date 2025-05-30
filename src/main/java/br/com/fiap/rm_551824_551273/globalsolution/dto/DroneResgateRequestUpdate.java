@@ -1,6 +1,6 @@
-package br.com.fiap.rm_551824_551273.dto;
+package br.com.fiap.rm_551824_551273.globalsolution.dto;
 
-import br.com.fiap.rm_551824_551273.model.DroneResgate;
+import br.com.fiap.rm_551824_551273.globalsolution.model.DroneResgate;
 
 public class DroneResgateRequestUpdate {
 

@@ -1,4 +1,4 @@
-package br.com.fiap.rm_551824_551273.service;
+package br.com.fiap.rm_551824_551273.globalsolution.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -7,10 +7,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import br.com.fiap.rm_551824_551273.dto.DroneResgateRequestCreate;
-import br.com.fiap.rm_551824_551273.dto.DroneResgateRequestUpdate;
-import br.com.fiap.rm_551824_551273.model.DroneResgate;
-import br.com.fiap.rm_551824_551273.repository.DroneResgateRepository;
+import br.com.fiap.rm_551824_551273.globalsolution.dto.DroneResgateRequestCreate;
+import br.com.fiap.rm_551824_551273.globalsolution.dto.DroneResgateRequestUpdate;
+import br.com.fiap.rm_551824_551273.globalsolution.model.DroneResgate;
+import br.com.fiap.rm_551824_551273.globalsolution.repository.DroneResgateRepository;
 
 @Service
 public class DroneResgateService {

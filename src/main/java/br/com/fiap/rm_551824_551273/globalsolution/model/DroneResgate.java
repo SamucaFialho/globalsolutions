@@ -1,4 +1,4 @@
-package br.com.fiap.rm_551824_551273.model;
+package br.com.fiap.rm_551824_551273.globalsolution.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
