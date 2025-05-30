@@ -9,13 +9,11 @@ public class DroneResgateResponse {
     private String modelo;
     private Long valor;
     private int bateria;
-    private String status;
-
+    
     public DroneResgateResponse toDto(DroneResgate drone){
         this.setId(drone.getId());
         this.setModelo(drone.getModelo());
         this.setBateria(drone.getBateria());
-        this.setStatus(drone.getStatus());
         this.setValor(drone.getValor());
         return this;
     }
@@ -45,13 +43,6 @@ public class DroneResgateResponse {
     public void setBateria(int bateria) {
         this.bateria = bateria;
     }
-    public String getStatus() {
-        return status;
-    }
-    public void setStatus(String status) {
-        this.status = status;
-    }
-
 
 
 }

@@ -12,8 +12,11 @@ public class DroneResgateRequestUpdate {
     public DroneResgate toModel(DroneResgate drone){
         drone.setModelo(this.modelo);
         drone.setValor(this.valor);
+
         return drone;
     }
+
+
 
     public Long getId() {
         return id;
